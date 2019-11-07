@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TASK_JOB>
+    <TASK_LIST>
+        <TASK_TMPL_CD>sqlDynamicRead</TASK_TMPL_CD>
+        <TASK_ID>selectDmAge</TASK_ID>
+        <SERVICE_CD>stat</SERVICE_CD>
+        <SQL>
+            select *
+            from t_dm_age
+            where 1 = 1
+        </SQL>
+    </TASK_LIST>
+    <TASK_LIST>
+        <TASK_TMPL_CD>hdfs</TASK_TMPL_CD>
+        <TASK_ID>hdfsPutDmAge</TASK_ID>
+        <COMMAND>put</COMMAND>
+        <LOCAL_PATH>/app/slave_log_file_root/tmp/t_dm_age.tsv</LOCAL_PATH>
+        <HDFS_PATH>/prod/dw/db/common/age/data.tsv</HDFS_PATH>
+    </TASK_LIST>
+</TASK_JOB>

@@ -1,0 +1,17 @@
+<ArrayList>
+  <item>
+    <city>seoul</city>
+    <name>ikju</name>
+    <age>20</age>
+  </item>
+  <item>
+    <city>pusan</city>
+    <name>eunmi</name>
+    <age>21</age>
+  </item>
+  <item>
+    <city>wonju</city>
+    <name>hyeunseung</name>
+    <age>10</age>
+  </item>
+</ArrayList>
